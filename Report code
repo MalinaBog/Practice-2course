@@ -1,0 +1,105 @@
+\documentclass[12pt,a4paper]{scrartcl} 
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage{misccorr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\large
+			МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ
+			
+			Федеральное государственное бюджетное образовательное учреждение высшего образования
+			
+			\textbf{АДЫГЕЙСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ}
+			\vspace{0.25cm}
+			
+			Инженерно-физический факультет
+			
+			Кафедра автоматизированных систем обработки информации и управления
+			\vfill
+
+			\vfill
+			
+			\Large\textsc{Отчет по практике}\\[1mm]
+			\bigskip
+			
+			2 курс, группа 2УТС
+		\end{center}
+		\vfill
+		
+		\newlength{\ML}
+		\settowidth{\ML}{«\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}}}
+		\hfill\begin{minipage}{0.5\textwidth}
+			Выполнил:\\
+			\underline{\hspace{\ML}} Б.\,Н.~Малинка\\
+			«\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}} 2022 г.
+		\end{minipage}%
+		\bigskip
+		
+		\hfill\begin{minipage}{0.5\textwidth}
+			Руководитель:\\
+			\underline{\hspace{\ML}} С.\,В.~Теплоухов\\
+			«\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}} 2022 г.
+		\end{minipage}%
+		\vfill
+		
+		\begin{center}
+			Майкоп, 2022 г.
+		\end{center}
+	\end{titlepage}
+
+\section{Введение}
+\label{sec:intro}
+
+% Что должно быть во введении
+\begin{enumerate}
+ \item Установить и настроить ряд прикладных программных обеспечений
+ \item Заключение о установке и настройке ряд прикладных программных обеспечений
+ \item Присер библиографических ссылок
+\end{enumerate}
+%Пример приведен в пункте ~\ref{sec:exp} на стр.~\pageref{sec:exp}.
+
+\section{Ход работы}
+\label{sec:exp}
+\subsection{Заключение практической работы}
+В ходе практической работы в 405ой аудитории производилась установка и настройка ряда прикладного ПО. Изначально предполагался полный снос операционной системы Windows 10 Pro, сохранив все важные файлы, а также создать свои сборки Windows 10 Pro и Linux KDE Neon. Но в ходе работы было выяснено, что полный снос ОС не требуется. Так как сама ОС работала стабильно, лишних файлов и программ было категорически мало, а также большая часть нужных программ были установлены. Поэтому мы решили отказаться от полного сноса ОС и создания собственных сборок Windows 10 Pro и Linux KDE Neon.
+В процессе работы мы удалили все ненужные файлы, фотографии и программы. В последующем мы установили ряд ПО, а именно:
+\item•	Arduino IDE;
+\item•	PostgreSQL 14;
+\item•	OC Linux KDE Neon на виртуальную машину VMware Workstation.
+\item Во время работ выявили неисправные компьютеры, а именно:
+\item•	PC-05;
+\item•	PC-08;
+\item•	PC-10.
+\itemНа всех остальных компьютерах работа была совершена успешно, а именно:
+\item•	PC-01;
+\item•	PC-02;
+\item•	PC-03;
+\item•	PC-04;
+\item•	PC-06;
+\item•	PC-07;
+\item•	PC-09;
+\item•	PC-11;
+\item•	PC-12.
+\item На PC-01 выявили то, что передняя панель сломана, но компьютер работал стабильно. У PC-08 не было HDMI кабелей, поэтому мы не смогли на нём произвести работу и занесли его в неисправные.
+
+\begin{verbatim}
+
+\end{verbatim}
+
+\section{Пример библиографических ссылок}
+
+Для изучения «внутренностей» \TeX{} необходимо 
+изучить~\cite{Knuth-2003}, а для использования \LaTeX{} лучше
+почитать~\cite{Lvovsky-2003, Voroncov-2005}.
+
+\begin{thebibliography}{9}
+\bibitem{Knuth-2003}Кнут Д.Э. Всё про \TeX. \newblock --- Москва: Изд. Вильямс, 2003 г. 550~с.
+\bibitem{Lvovsky-2003}Львовский С.М. Набор и верстка в системе \LaTeX{}. \newblock --- 3-е издание, исправленное и дополненное, 2003 г.
+\bibitem{Voroncov-2005}Воронцов К.В. \LaTeX{} в примерах. 2005 г.
+\end{thebibliography}
+
+\end{document}
